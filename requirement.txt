@@ -1,0 +1,4 @@
+First i have to activate envornment in the project folder 
+Enviornment name\Scripts\activate
+Now run the file
+deactivate
