@@ -8,7 +8,7 @@
 # import os
 # #from dotenv import load_dotenv
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = ""
 # #os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 
 # ## Langmith tracking
@@ -58,7 +58,7 @@
 # # Set Gemini API Key
 # # NOTE: In a real app, use st.secrets or a proper environment variable setup
 # # For this example, I'll keep the placeholder structure you provided.
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyAqQeSEdLhSN82BB8DIWBRcdJOlvhTW3iw" 
+# os.environ["GOOGLE_API_KEY"] = "" 
 # MODEL_NAME = "gemini-2.5-flash"
 
 # # Prompt Template
@@ -145,7 +145,7 @@
 
 # # ------------------ CONFIG ------------------
 # # NOTE: The API key is exposed here. In a real-world app, use st.secrets or environment variables securely.
-# os.environ["GOOGLE_GENAI_API_KEY"] = "AIzaSyAqQeSEdLhSN82BB8DIWBRcdJOlvhTW3iw"
+# os.environ["GOOGLE_GENAI_API_KEY"] = ""
 # MODEL_NAME = "gemini-2.5-flash"
 
 # prompt = ChatPromptTemplate.from_messages([
@@ -457,7 +457,7 @@
 
 # # ------------------ CONFIG ------------------
 # # NOTE: The API key is exposed here. In a real-world app, use st.secrets or environment variables securely.
-# os.environ["GOOGLE_GENAI_API_KEY"] = "AIzaSyAqQeSEdLhSN82BB8DIWBRcdJOlvhTW3iw"
+# os.environ["GOOGLE_GENAI_API_KEY"] = ""
 
 # MODEL_NAME = "gemini-2.5-flash"
 
@@ -1006,4 +1006,5 @@ if tts_enabled and st.session_state.messages:
                 </script>
                 """
                 st.components.v1.html(js_stop, height=0)
+
             # --- END NEW STOP BUTTON ---
